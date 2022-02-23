@@ -6,7 +6,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".presentation.MainActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_shop_list"
+                android:orientation="vertical"/>
+    </ScrollView>
+
+
     <androidx.recyclerview.widget.RecyclerView
+            android:visibility="invisible"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:id="@+id/rv_shop_list"
@@ -29,7 +42,7 @@
             android:contentDescription="Add new shop item"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat=" "
+            app:srcCompat="@drawable/img_add"
     />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

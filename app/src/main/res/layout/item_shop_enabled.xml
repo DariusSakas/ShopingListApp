@@ -25,6 +25,15 @@
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
+                android:text="Name"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_count"
+                android:layout_weight="0"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
                 android:text="1"/>
     </LinearLayout>
 
